@@ -5,6 +5,7 @@ import { homeRoutes } from './home.routes';
 import { HomeComponent } from './home.component';
 import { NavComponent } from './nav/nav.component';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
+import { LayoutComponent } from '../layout/layout.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
   declarations: [
     HomeComponent,
     NavComponent,
+    LayoutComponent,
   ]
 })
 export class HomeModule { }

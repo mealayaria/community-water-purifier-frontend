@@ -1,0 +1,24 @@
+.index {
+   width: 100%;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   text-align: center;
+   background: #141a48 url(https://file.iviewui.com/dist/ddb81d457e66ab31d3a2e7726a5b793a.png) no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.index h2 {
+  color: #666666;
+  margin-bottom: 50px;
+}
+
+.menu a {
+  padding: 10px;
+  font-size: 16px;
+}
